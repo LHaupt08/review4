@@ -15,19 +15,41 @@
 
 /* HTML Styles */
 
-
+html {
+   background-image: url(../images/tb_back5.png);
+}
 
 /* Page Body Styles */
 
-
+body {
+   border-left: rgb(169,130,88) solid 3px;
+   border-right: rgb(169,130,88) solid 3px;
+   box-shadow: rgb(53,21,0) 25px 0px 35px,
+   rgb(53,21,0) -25px 0px 35px;
+}
 
 /* Main Styles */
 
+main {
+   background: url(../images/tb_back7.png) 100% / cover no-repeat;
+   box-shadow: inset rgb(75,75,75) 10px 10px 25px,
+   inset rgb(75,75,75) -10px -10px 25px;
+}
 
+main header h1 {
+   text-shadow: rgb(221,221,221) 1px 1px 0px,
+   rgba(41,41,41,0.9) 5px 5px 20px;
+}
 
 /* Figure Box Styles */
 
+figure {
+   margin: 0px auto;
+}
 
+figure img {
+   border-width:25px;
+}
 
 /* Article Styles */
 
