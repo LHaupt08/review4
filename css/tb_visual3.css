@@ -68,7 +68,8 @@ figure figcaption {
 
 article {
    background: url(../images/tb_back6.png) bottom right / 15% no-repeat content-box;
-   border: rgb(147,116,68) double 8px;
+   border-bottom: rgb(147,116,68) double 8px;
+   border-right: rgb(147,116,68) double 8px;
    border-bottom-right-radius: 80px;
    box-shadow: inset rgba(184,154,112,0.7) -10px -10px 25px;
 }
